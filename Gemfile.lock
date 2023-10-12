@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/ferocia/pghero.git
+  revision: 3228805f85b2c0e05ccd1a48ffc6a948affa4ac0
+  branch: live-queries-transaction-duration
+  specs:
+    pghero (3.3.4)
+      activerecord (>= 6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -196,8 +204,6 @@ GEM
     pg (1.5.4)
     pg_query (2.2.1)
       google-protobuf (>= 3.19.2)
-    pghero (3.3.4)
-      activerecord (>= 6)
     public_suffix (5.0.3)
     puma (6.3.1)
       nio4r (~> 2.0)
@@ -286,7 +292,7 @@ DEPENDENCIES
   google-protobuf
   pg
   pg_query (~> 2)
-  pghero (= 3.3.4)
+  pghero!
   puma
   rails (~> 7.0.0)
   sprockets-rails
